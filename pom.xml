@@ -61,7 +61,7 @@
 		</plugins>
 	</build>
 	
-	<repositories>
+	<!-- <repositories>
 		<repository>
 			<id>mavenfeed</id>
 			<url>https://pkgs.dev.azure.com/aklndevops/DevOps/_packaging/mavenfeed/maven/v1</url>
@@ -84,6 +84,6 @@
 				<enabled>true</enabled>
 			</snapshots>
 		</repository>
-	</distributionManagement>
+	</distributionManagement> -->
 
 </project>
