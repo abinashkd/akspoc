@@ -42,7 +42,9 @@
 
 	<properties>
 		<java.version>1.8</java.version>
+		 <tests.skip>true</tests.skip>
 	</properties>
+
 
 	<dependencies>
 		<!-- <dependency> <groupId>org.springframework.boot</groupId> <artifactId>spring-boot-starter-data-cassandra</artifactId> 
@@ -59,6 +61,7 @@
 			<artifactId>spring-boot-starter-web</artifactId>
 		</dependency>
 
+		
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-test</artifactId>
@@ -83,8 +86,18 @@
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
 			</plugin>
+				
+	<plugin>
+	    <groupId>org.apache.maven.plugins</groupId>
+	    <artifactId>maven-surefire-plugin</artifactId>
+	    <version>2.22.1</version>
+	    <configuration>
+	        <skipTests>${tests.skip}</skipTests>
+	    </configuration>
+	</plugin>
 		</plugins>
 	</build>
+	
 	
 
 </project>
