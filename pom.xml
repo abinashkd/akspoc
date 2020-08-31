@@ -15,28 +15,28 @@
 	<name>poc</name>
 	<description>POC Project</description>
 <distributionManagement>
-		<repository>
-			<id>mavenfeed</id>
-			<url>https://pkgs.dev.azure.com/aklndevops/DevOps/_packaging/mavenfeed/maven/v1</url>
-			<releases>
-				<enabled>true</enabled>
-			</releases>
-			<snapshots>
-				<enabled>true</enabled>
-			</snapshots>
-		</repository>
+	<repository>
+		<id>mavenfeed-2</id>
+		<url>https://pkgs.dev.azure.com/aklndevops/DevOps/_packaging/mavenfeed-2/maven/v1</url>
+		<releases>
+		  <enabled>true</enabled>
+		</releases>
+		<snapshots>
+		  <enabled>true</enabled>
+		</snapshots>
+	  </repository>
 	</distributionManagement> 
 <repositories>
-		<repository>
-			<id>mavenfeed</id>
-			<url>https://pkgs.dev.azure.com/aklndevops/DevOps/_packaging/mavenfeed/maven/v1</url>
-			<releases>
-				<enabled>true</enabled>
-			</releases>
-			<snapshots>
-				<enabled>true</enabled>
-			</snapshots>
-		</repository>
+	<repository>
+		<id>mavenfeed-2</id>
+		<url>https://pkgs.dev.azure.com/aklndevops/DevOps/_packaging/mavenfeed-2/maven/v1</url>
+		<releases>
+		  <enabled>true</enabled>
+		</releases>
+		<snapshots>
+		  <enabled>true</enabled>
+		</snapshots>
+	  </repository>
 	</repositories>
 	
 
