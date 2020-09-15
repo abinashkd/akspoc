@@ -18,6 +18,8 @@ spec:
       labels:
         app.kubernetes.io/name: {{ include "helm-chart.name" . }}
         app.kubernetes.io/instance: {{ .Release.Name }}
+      annotations:
+        fluxcd.io/automated: "true"
     spec:
       containers:
         - name: {{ .Chart.Name }}
