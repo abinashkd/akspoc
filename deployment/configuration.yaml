@@ -34,7 +34,7 @@ spec:
     spec:
       containers:
       - name: aks-poc
-        image: abinashkd/akspoc:37
+        image: abinashkd/akspoc:65
         ports:
         - name: http
           containerPort: 8080
