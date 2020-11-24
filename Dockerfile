@@ -11,4 +11,4 @@ COPY --from=MAVEN_BUILD /build/target/poc-0.0.1-SNAPSHOT.jar /home/Azure/bin/
 
 WORKDIR /home/Azure/bin
 EXPOSE 8080
-ENTRYPOINT ["java","-jar","brigade-0.0.1-SNAPSHOT.jar"]
+ENTRYPOINT ["java","-jar","poc-0.0.1-SNAPSHOT.jar"]
